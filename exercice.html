@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Météo</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body class="container">
+    <section>
+        <label for="submit"></label>
+        <div class="row align-items-center">
+            <div class="col-md-3"></div>
+            <input type="text" name="ville" class="row col-md-6" id="ville"  >
+            <div class="col-md-3"></div>
+        </div>
+
+        <div class="row align-items-center">
+            <div class="col-md-5"></div>
+            <button class="row col-small-2" id="submit">Valider</button>
+            <div class="col-md-5"></div>
+        </div>
+    </section>
+
+
+    <div id="weatherBloc">
+        <section>
+            <div class="row align-items-center">
+                <div class="col-md-5"></div>
+                <div class="row text-center" id="ville"></div>
+                <div class="col-md-5"></div>
+            </div>
+
+            <div class="row align-items-center">
+                <div class="col-md-5"></div>
+
+                <div class="row text-center" id="date"></div>
+
+                <div class="col-md-5"></div>
+            </div>
+
+            <div class="row align-items-center">
+                <div class="col-md-1"></div>
+
+                <div class="col-md-6" id="temperature"></div>
+
+                <div class="col-md-5">
+                    <div>
+                        <span id="maxTemp"></span>
+                    </div>
+                    <div>
+                        <span id="minTemp"></span>
+                    </div>
+                    <div>
+                        <span id="pression"></span>
+                    </div>
+                    <div>
+                        <span id="windVit"></span>
+                    </div>
+                    <div>
+                        <span id="humidity"></span>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </section>
+
+
+        <section>
+            <div class="row">
+                <div>
+                    <span class="col-md-3" id="longitude"></span>
+                </div>
+                <div>
+                    <span class="col-md-3" id="lattitude"></span>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <script src="exercice.js"></script>
+</body>
+</html>

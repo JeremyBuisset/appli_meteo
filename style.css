@@ -1,0 +1,21 @@
+.container{
+    color: white;
+    background: #40826d;
+    font-size: 25px;
+}
+
+#date{
+    font-size: 30px;
+}
+
+#temperature{
+    font-size: 90px;
+}
+
+.row{
+    margin-bottom: 10px;
+}
+
+span{
+    margin-top : 30px;
+}
